@@ -1,48 +1,44 @@
-//let personName: String = "Eric";
-//console.log(`hello ${personName}
+// object  is mai hum nay
+let governorhouse = {
+    total_students: 50000,
+    city:   "karachi",
+    course_duration : "1 year",
+    class_timing :  ["9 to 12","2 to 5","7 to 10"] ,
+    days:  ["monday","tuesday","wednesday", "thursday", "friday"],
+    per_class_student: 2000,
 
-let student={
-    fullname: "reena",
-    lastname: "khan",
-    age: 27,
-    ispassed: true,
-    attendence:["saturday","monday","tuesday",],
-    feeschedule: {
-        amount: 1000,
-        month:  "march",
-        year:  2024,
+     tuesday :  {
+        morning_class : "9:00 AM  to  12:00 PM" ,
+        student : 2000,
+        is_attendence:  true,
+        start_subject: ["typescript","next.js"],
 
+        after_noon_class: "2:00 PM to  5:00 PM" ,
+        student2: 3000,
+        isattendence:  true,
+        subjects:["typescript","next.js"],
         
-    }
-}
-let student2:{
-    fullname: "areeba",
-    lasrname: "khan",
-    age: 23,
-    ispassed: true,
-    aattendence:["monday","tuesday","friday"]
-}
-
- 
-
-console.log(student)
-console.log(student.age)
-console.log(student.attendence[2])
-console.log(student.feeschedule.amount)
-console.log("detailn'\n"+ student.attendence+ "\nthanks")
+        evening_class: " 7:00 pm to  10:00 pm" ,
+        students:    25000,
+        is_attendence_student: true,
 
 
 
 
+    },
+    
 
 
 
 
+     }
+     console.log("detail of  the governer house it course\n"+ governorhouse.tuesday.morning_class);
+     console.log(governorhouse.tuesday.start_subject[0]);
 
 
+     
 
-
-
+     
 
 
 
